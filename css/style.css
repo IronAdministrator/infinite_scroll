@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  min-height: 100vh;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: whitesmoke; }
+
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+  .loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.img-container {
+  margin: 1rem 30%; }
+  @media only screen and (max-width: 50rem) {
+    .img-container {
+      margin: 1rem; } }
+  .img-container img {
+    width: 100%;
+    margin-top: 0.5rem; }
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  letter-spacing: 0.5rem; }
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem !important; } }

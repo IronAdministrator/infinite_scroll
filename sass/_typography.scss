@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 1.5rem !important;
+  }
+}
